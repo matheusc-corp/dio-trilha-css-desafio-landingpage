@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Raleway;
+    font-size: 16px;
+    
+}
+
+.banner {
+    width: 100%;
+    height: 605px;
+    border: solid 1px #33ABDB;
+    position: relative;
+    text-align: center;
+    background-image: url(../images/banner.png), linear-gradient(#000000, #09425a, #000);
+}
+
+.banner-content{
+    border: solid 1px #000;
+    width: 510px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-content h1{
+    font-size: calc(2rem + 4px);
+    color: #33A8D8;
+}
+
+.banner-content p{
+    font-size: calc(1rem + 4px);
+    color: #FFF;
+}
+
+.banner-content button{
+    border: solid 2px;
+    border-image-source: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    background: none;
+    color: #33A8D8;
+    font-weight: 900;
+    padding: 19px 91px;
+}
+
+
