@@ -1,27 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+body {
     font-family: Raleway;
     font-size: 16px;
-    
+    background-color: #000;
+    color: #FFF;
 }
 
 .banner {
     width: 100%;
     height: 605px;
-    border: solid 1px #33ABDB;
+    border-bottom: solid 1px #33ABDB;
     position: relative;
     text-align: center;
     background-image: url(../images/banner.png), linear-gradient(#000000, #09425a, #000);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .banner-content{
-    border: solid 1px #000;
     width: 510px;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: none;
+}
+
+.banner-content * {
+    background: none;
 }
 
 .banner-content h1{
@@ -31,7 +38,6 @@
 
 .banner-content p{
     font-size: calc(1rem + 4px);
-    color: #FFF;
 }
 
 .banner-content button{
@@ -42,6 +48,85 @@
     color: #33A8D8;
     font-weight: 900;
     padding: 19px 91px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    
+}
+
+#course-content {
+    margin-top: 40px;
+    width: 723px;
+    height: 450px;
+}
+
+#course-content h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+}
+
+.module{
+    border: solid 1px #33A8D8;
+    border-radius: 57px;
+    margin: 20px;
+    padding: 16px 127px;
+    background-color: #252525;
+}
+
+.module span{
+    background: none;
+    color: #33A8D8;
+}
+
+#transform-world {
+    height: 600px;
+    width: 100%;
+    border-top: solid 1px #33A8D8;
+    border-bottom: solid 1px #33A8D8;
+    background-image: url(../images/woman-code.png);
+    background-size: 100% 100%;
+}
+
+#transform-world p {
+    width: 200px;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+#professional-challenges {
+    position: relative;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding: 50px;
+}
+
+#professional-challenges h2 {
+    color: #33A8D8;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 600px;
+}
+
+#professional-challenges p {
+    width: 800px;
+}
+
+footer {
+    text-align: center;
+    border-top: solid 1px #33A8D8;
+    padding: 50px 0px 20px 0px;
+}
+
+footer a {
+    color: #33A8D8;
 }
 
 
