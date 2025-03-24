@@ -19,7 +19,7 @@ body {
 }
 
 .banner-content{
-    width: 510px;
+    width: 600px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -60,7 +60,7 @@ main {
 
 #course-content {
     margin-top: 40px;
-    width: 723px;
+    width: 800px;
     height: 450px;
 }
 
@@ -88,16 +88,18 @@ main {
     border-top: solid 1px #33A8D8;
     border-bottom: solid 1px #33A8D8;
     background-image: url(../images/woman-code.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #transform-world p {
-    width: 200px;
+    width: 250px;
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
     margin-top: 200px;
     margin-left: 10%;
+    text-shadow: 3px 2px #33A8D8;
 }
 
 #professional-challenges {
@@ -123,6 +125,7 @@ footer {
     text-align: center;
     border-top: solid 1px #33A8D8;
     padding: 50px 0px 20px 0px;
+    background: linear-gradient(#000 80%, #33A8D8 150%);
 }
 
 footer a {
